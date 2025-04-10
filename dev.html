@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developers Intro</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ff69b4, #8a2be2);
+            overflow-y: auto;
+            flex-direction: column;
+            padding: 20px;
+        }
+        
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 1200px;
+            padding: 30px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #00e6e6;
+        }
+        .dev-wrapper {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+        .dev-card {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ffffff33;
+            border-radius: 15px;
+            padding: 25px;
+            width: 320px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            transition: transform 0.4s, box-shadow 0.4s;
+            cursor: pointer;
+        }
+        .dev-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.8);
+        }
+        .dev-card h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #ffcc00;
+        }
+        .dev-card p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #d1d1d1;
+        }
+        button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #004494;
+  transform: scale(0.95);
+}
+
+
+        .cyber { color: #00e6e6; font-weight: bold; }
+        .student { color: #ff6666; font-style: italic; }
+        
+        @media (max-width: 768px) {
+            .dev-card { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Meet the Developers</h1>
+        <div class="dev-wrapper">
+            <div class="dev-card">
+                <h2>Chaitanya Kulkarni</h2>
+                <p><span class="cyber">Cybersecurity Enthusiast</span><br>
+                Still a <span class="student">student</span>, passionate about ethical hacking, penetration testing, and security research.<br>
+                Recently completed an <b>animal conservation web project</b> showcasing cybersecurity's role in environmental data protection.</p>
+            </div>
+            <div class="dev-card">
+                <h2>Akshay Nandurake</h2>
+                <p>Creative coder with a passion for problem-solving. <br>
+                <span class="student">Student</span> learning web development and software engineering.<br>
+                Developed a fully functional <b>Home Page</b> with interactive UI components and smooth navigation.</p>
+            </div>
+            <div class="dev-card">
+                <h2>Vedant Nirmal</h2>
+                <p>Tech enthusiast exploring programming and development. <br>
+                A <span class="student">student</span> eager to create innovative solutions.<br>
+                Completed a <b>Water Conservation Web Project</b> that raises awareness and provides real-time water statistics.</p>
+            </div>
+            <div class="dev-card">
+                <h2>Prasad Jagtap</h2>
+                <p>Innovative thinker with a love for technology. <br>
+                <span class="student">Student</span> exploring software development and futuristic tech trends.<br>
+                Successfully built a <b>Forest Conservation Web Project</b> using HTML, CSS,highlighting deforestation issues.</p>
+            </div>
+        </div>
+        <br>
+        <div class="Home">
+            <a href="index.html"><button>HOME</button>
+            </a>
+        </div>
+        
+    </div>
+</body>
+</html>

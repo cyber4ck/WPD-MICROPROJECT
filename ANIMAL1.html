@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Vantara - Animal Conservation</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('vantara.jpg') no-repeat center center/cover;
+            color: navy;
+        }
+        .header {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 40px 20px;
+            transition: background 1s ease;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            transition: color 1s ease, font-family 1s ease;
+        }
+        .header:hover {
+            background: url('headline.jpg') no-repeat center center/cover;
+            height: 300px;
+            color: lawngreen;
+        }
+        .header h1:hover {
+            color: green;
+            font-family: 'Playfair Display', serif;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px gray;
+            text-align: center;
+        }
+        .section img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .collage img {
+            width: 30%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .collage img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px black;
+        }
+        .next-btn {
+            display: block;
+            width: 120px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background: green;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .next-btn:hover {
+            background: darkgreen;
+        }
+        .pro {
+            color: black;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: justify;
+            padding: 10px;
+            border-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Animal Conservation</h1>
+    </div>
+    
+    <div class="container">
+        <div class="section">
+            <h2>Importance of Animal Conservation</h2>
+            <img src="importance.jpg" alt="Importance of Animal Conservation">
+            <p>Animal conservation is essential for maintaining ecological balance and preserving biodiversity. Protecting wildlife ensures the survival of various species and helps sustain the environment.</p>
+            <ul>
+                <li>Prevents the extinction of endangered species.</li>
+                <li>Maintains food chains and ecosystem stability.</li>
+                <li>Protects forests and prevents climate change effects.</li>
+                <li>Enhances scientific research and medical discoveries.</li>
+                <li>Supports eco-tourism and local communities.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Need for Animal Conservation</h2>
+            <img src="need.jpg" alt="Need for Animal Conservation">
+            <p>As human activities expand, the need for animal conservation grows. Habitat destruction, poaching, and climate change threaten countless species.</p>
+            <ul>
+                <li>Protects ecosystems from irreversible damage.</li>
+                <li>Preserves natural habitats for future generations.</li>
+                <li>Reduces illegal wildlife trade and hunting.</li>
+                <li>Prevents the collapse of food chains.</li>
+                <li>Encourages environmental responsibility and awareness.</li>
+            </ul>
+        </div>
+<div class="pro">
+        <h1>Some projects related to Animal Conservation</h1>
+        <ul>
+            <li>Center for Wildlife Studies</li>
+            <li>Wildlife Trust of India</li>
+            <li>Vantara</li>
+        </ul>
+    </div>
+        <div class="section">
+            
+            <h2>Project Vantara</h2>
+            <img src="logo2.jpg" alt="Project Vantara">
+            <p>Project Vantara is a significant initiative aimed at rescuing, rehabilitating, and conserving wild animals in India. It focuses on providing medical care, shelter, and protection to endangered species.</p>
+            <ul>
+                <li>Established to rehabilitate injured and abandoned wildlife.</li>
+                <li>Works towards the conservation of rare and endangered species.</li>
+                <li>Promotes awareness and education about animal welfare.</li>
+                <li>Collaborates with wildlife organizations for research and protection.</li>
+                <li>Helps in reintroducing animals back into their natural habitats.</li>
+            </ul>
+            <div class="collage">
+                <img src="vantarra1.jpg" alt="Vantara Image 1">
+                <img src="vantara2.jpg" alt="Vantara Image 2">
+                <img src="vantara3.jpg" alt="Vantara Image 3">
+                <img src="vantara4.jpg" alt="Vantara Image 4">
+                <img src="vantara5.jpg" alt="Vantara Image 5">
+            </div>
+        </div>
+    </div>
+
+    <a href="ANIMAL2.html" class="next-btn">Next</a>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Conservation - Project Aqua</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+           
+            color: #004d40;
+        }
+        .header {
+            text-align: center;
+            background-image: url(bg.jpg);
+          
+            color: white;
+            padding: 50px 20px;
+            font-size: 2.2em;
+            font-weight: bold;
+            letter-spacing: 1.5px;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px gray;
+            text-align: center;
+        }
+        .section img {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .collage img {
+            width: 30%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .collage img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px black;
+        }
+        .next-btn {
+            display: block;
+            width: 140px;
+            margin: 20px auto;
+            padding: 12px;
+            text-align: center;
+            background: #00796b;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .next-btn:hover {
+            background: #004d40;
+        }
+        .pro {
+            color: black;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: justify;
+            padding: 10px;
+            border-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        Water Conservation: A Necessity for Future
+    </div>
+    
+    <div class="container">
+        <div class="section">
+            <h2>Water Stress in India</h2>
+            <img src="waterstress.jpg" alt="Water Stress in India">
+            <p>India faces severe water stress due to population growth, urbanization, and inefficient water management. Many regions struggle with freshwater availability, affecting both people and the environment.</p>
+            <ul>
+                <li>Rapid urbanization leading to groundwater depletion.</li>
+                <li>Climate change affecting rainfall patterns.</li>
+                <li>Industrialization causing excessive water usage.</li>
+                <li>Declining river water quality.</li>
+                <li>Need for sustainable water conservation techniques.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Water Resources Limitation & Increasing Use</h2>
+            <img src="waterres.jpg" alt="Water Resources">
+            <p>With only 4% of global freshwater resources, India struggles to meet the demands of agriculture, industry, and households.</p>
+            <ul>
+                <li>Over-extraction of groundwater for irrigation.</li>
+                <li>Uneven water distribution across regions.</li>
+                <li>Depletion of major river basins.</li>
+                <li>Government policies for water conservation.</li>
+                <li>Implementation of water recycling and rainwater harvesting.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Water Stress in Agriculture</h2>
+            <img src="agri.jpg" alt="Water in Agriculture">
+            <p>Agriculture accounts for nearly 80% of India’s freshwater use, making it a key sector for water conservation efforts.</p>
+            <ul>
+                <li>Dependence on monsoon rains.</li>
+                <li>Use of water-intensive crops like rice and sugarcane.</li>
+                <li>Need for efficient irrigation methods like drip irrigation.</li>
+                <li>Government initiatives for sustainable farming.</li>
+                <li>Role of technology in water conservation.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Water Pollution & Contamination</h2>
+            <img src="pollution.jpg" alt="Water Pollution">
+            <p>Water pollution in India is a growing concern due to industrial waste, sewage, and chemical runoffs affecting rivers and lakes.</p>
+            <ul>
+                <li>Major rivers like Ganga and Yamuna facing severe pollution.</li>
+                <li>Contamination from agricultural pesticides and fertilizers.</li>
+                <li>Lack of wastewater treatment plants.</li>
+                <li>Government initiatives like Namami Gange.</li>
+                <li>Community-driven efforts for water cleanup.</li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="water2.html" class="next-btn">Next</a>
+</body>
+</html>
